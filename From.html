@@ -1,0 +1,243 @@
+<html>
+<body>
+
+<h2>1.HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">ชื่อ:</label><br>
+  <input type="text" id="fname" name="ชื่อ" value="กิตติชัย"><br>
+  <label for="lname">นามสกุล:</label><br>
+  <input type="text" id="lname" name="นามสกุล" value="โกสกุล"><br><br>
+  <input type="submit" value="Submit">
+
+ 
+<h2>Text Fields</h2>
+  
+ 
+  <label for="fname">ชื่อ:</label><br>
+  <input type="text" id="fname" name="ชื่อ" value="กิตติชัย"><br>
+  <label for="lname">นามสกุล:</label><br>
+  <input type="text" id="lname" name="นามสกุล" value="โกสกุล">
+
+  
+  <h2>Radio Buttons</h2>
+ <h3>สัตว์เลี้ยงที่ชอบ</h3>
+  <input type="radio" id="หมา" name="gender" value="หมา">
+  <label for="หมา">หมา</label><br>
+  <input type="radio" id="เสือ" name="gender" value="เสือ">
+  <label for="เสือ">เสือ</label><br>
+  <input type="radio" id="อื่นๆ" name="gender" value="อื่นๆ">
+  <label for="อื่นๆ">อื่นๆ</label>
+  
+  <h2>Checkboxes</h2>
+  <h3>คุณชอบกินอะไร</h3>
+
+
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="ข้าวผัด">
+  <label for="vehicle1"> ข้าวผัด</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="ราดหน้า">
+  <label for="vehicle2"> ราดหน้า</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="ข้าวหน้าเป็ด">
+  <label for="vehicle3"> ข้าวหน้าเป็ด</label><br><br>
+  <input type="submit" value="Submit">
+
+ 
+ 
+ 
+ 
+  <h2>The name Attribute</h2>
+
+
+  <label for="fname">ชื่อ:</label><br>
+  <input type="text" id="fname" value="กิตติชัย"><br><br>
+  <input type="submit" value="Submit">
+
+  <h2>2.HTML Form Attributes</h2>
+  <h3>The form target attribute</h3>
+  
+  <label for="fname">ชื่อ:</label><br>
+  <input type="text" id="fname" name="กิตติชัย" value="กิตติชัย"><br>
+  <label for="lname">นามสกุล:</label><br>
+  <input type="text" id="lname" name="โกสกุล" value="โกสกุล"><br><br>
+  <input type="submit" value="Submit">
+
+  
+  
+<h3>The form autocomplete attribute</h3>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <input type="submit">
+
+  
+  <h2>3.HTML Form Elements</h2>
+  
+  <h3>The input Element</h3>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
+
+
+  <h3>The select Element</h3>
+
+
+
+  <label for="Drink">คุณชอบผู้เครื่องดื่มอะไร:</label>
+  <select id="Drink" name="Drink">
+    <option value="เหล้า">เหล้า</option>
+    <option value="เบียร์">เบียร์</option>
+    <option value="ม็อกเทล">ม็อกเทล</option>
+    <option value="อื่นๆ">อื่นๆ</option>
+  </select>
+  <input type="submit">
+
+
+
+
+<h3>Textarea</h3>
+  <textarea name="message" rows="5" cols="10">หมากำลังกินอาหาร</textarea>
+  <br><br>
+  <input type="submit">
+  
+  
+  
+  <h3>Grouping Form Data with Fieldset</h3>
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Kittichai"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Kosakul"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+  
+  
+  
+  
+    <h2>4.HTML Input Types</h2>
+  
+  <h3>Password field</h3>
+  
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="abc" name="abc"><br><br>
+  <input type="submit" value="Submit">
+  
+  
+  
+  <h3>Reset Button</h3>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Kittichai"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Kosakul"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+  
+  
+  
+  <h3>Show a Color Picker</h3>
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="	 #000000 ">
+  <input type="submit" value="Submit">
+  
+  
+  <h3>Date Field Restrictions</h3>
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+  
+  <input type="submit" value="Submit">
+  
+  
+  
+  <h3>File upload</h3>
+
+
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="Submit">
+  
+  
+ <h3>Number Field</h3>
+
+
+  <label for="quantity">Quantity (between 1 and 30):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit" value="Submit">
+  
+  
+  
+<h3>Show a Time Input Control</h3>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="Submit">
+  
+  
+ 
+<h2>5.HTML Input Attributes</h2>
+  
+  <h3>The input pattern attribute</h3>
+    <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+  <input type="submit" value="Submit">
+  
+  
+  <h3>The input placeholder attribute</h3>
+  <label for="phone">Enter a phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="987654321" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+  <input type="submit" value="Submit">
+  
+  
+  
+  
+  
+<h3>The input step attribute</h3>
+
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="20">
+  <input type="submit" value="Submit">
+  
+  
+  <h3>The input height and width attributes</h3>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+  
+  
+  <h2>6.HTML Input form* Attributes</h2>
+  
+  <h3>The input formaction attribute</h3>
+  
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+  
+  <h3>The form novalidate attribute</h3>
+  
+   <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  <input type="submit" value="Submit">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</form> 
+
+
+</body>
+</html>
