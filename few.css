@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 968px;
+    background: #FFF;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+#main_image {
+    background-image: no-image;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 968px;
+    position: relative;
+}
+#left_column, #center_column, #right_column {
+    width: 316px;
+    float: left;
+}
+#center_column, #right_column {
+    margin-left: 10px;
+}
+h1{
+    font-family: sarina, serif;
+    font-size: 80px;
+    margin: 0;
+    float: left;
+}
+#header p {
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: center;
+} 
+#header a {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #FFFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100px;
+    
+
+}
+#header ul {
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#header ul li {
+    float: left;
+}
+
+#header {
+    color: #FFF;
+    background-color: #000000;
+    height: 100px;
+    position: relative;
+}
+#main_text {
+    background-color:#FFF;
+    background: rgba(204, 240, 190, 0.8);
+    width: 300px;
+    position: absolute ;
+    right: 60px;
+    bottom: 60px;
+    padding: 12px;
+    border-radius:10px;
+}
+
+#main_text h2 {
+    color: red ;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+#main_text h3 {
+    font-size: 16px;
+    margin: 0px;
+
+}
+#main_text p {
+    font-size: 14px;
+    line-height:1.2;
+    margin: 0px;
+}
